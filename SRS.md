@@ -34,13 +34,13 @@ The application is available freely for Android and IOs devices from app stores 
 
 ### 1.4 References
 
+Pending...
+
 ## Overall Description
 
 ### 2.1 Product perspective
 
 This system aims to minimize the interaction between actors by controlling orders by the application for mobile devices. It is expected that this system will be used by restaurant customers, and employees as cooks and waiters at the moment.
-
-Note: To ensure an efficient management of the system, the restaurant must be willing to fully use this system with its customers, allow full control of orders by this means and provide an open WIFI network for the restaurant costumers.
 
 ### 2.2 Product functions
 
@@ -64,9 +64,24 @@ There are three types of users that interact with the system: restaurant costume
 
 ### 2.4 Constraints
 
+Before the client requests a table in the restaurant he needs to have the application already installed on his phone, it is a restriction for the application, because it does not ensure that all the clients enter know this form of service, which is important for the restaurant can have a unique control of the service.
+
 ### 2.5 Assumptions and dependencies
+In this document you are assuming that the restaurant will follow the following points:
+
+* To ensure an efficient management of the system, an assumption is that the restaurant must be willing to fully use this 
+* System with its customers, allow full control of orders by this means
+The restaurant must provide an open WIFI network for the restaurant costumers.
+
+The dependencies that the system require are:
+
+* a conection to internet
+* A movil device with Android or IOs
+* A conection to a data base
 
 ### 2.6 Apportioning of requirements
+
+Pending...
 
 ## Specific requirements
 
