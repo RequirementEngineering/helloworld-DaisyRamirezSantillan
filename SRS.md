@@ -97,6 +97,22 @@ Pending...
 
 ### 3.2 Functional requirements
 
+1. The waiters can assign tables for customers
+
+2. Restaurant customers can make a list of their dishes to order
+
+3. Restaurant customers can scan the QR code to identify their table
+
+4. The chefs can see each of the requested orders
+
+5. The chefs can register the order as ready
+
+6. The waiters can know when an order is ready to take to the table
+
+7. Restaurant customerscan comment on the restaurant and its service
+
+8. Restaurant customers can request the presence of restaurant staff
+
 #### 3.2.1 ....
 
 ### 3.3 Performance requirements
