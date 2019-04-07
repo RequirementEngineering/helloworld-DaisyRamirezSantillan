@@ -1,3 +1,4 @@
+
 # Software Requirements specification 
 ___
 
@@ -26,13 +27,9 @@ The application is available freely for Android and IOs devices from app stores 
 
 |   Terms   |   Definition   |
 |-----------|----------------|
-|Restaurant | Business which prepares and serves food and drinks to customers in exchange for money |
 |Order      | List of dishes and drinks for each table |
 |Table      | Individual tables for 1 to 4 persons |
 |Menu       | All the dishes that the restaurant has and visible to the client |
-|Client     | A person that arrive to the restaurant and order meal |
-|Waiter     | A person whose job is to serve customers at their tables in a restaurant |
-|Chef       | Professional cook, typically the chief cook in a restaurant or hotel |
 | QR code   | Code with unique identification of each table in the system | 
 
 ### 1.4 References
@@ -43,19 +40,27 @@ The application is available freely for Android and IOs devices from app stores 
 
 This system aims to minimize the interaction between actors by controlling orders by the application for mobile devices. It is expected that this system will be used by restaurant customers, and employees as cooks and waiters at the moment.
 
-Note: To ensure an efficient management of the system, the restaurant must be willing to fully use this system with its customers and allow full control of orders by this means and provide an open WIFI network for the restaurant costumers.
+Note: To ensure an efficient management of the system, the restaurant must be willing to fully use this system with its customers, allow full control of orders by this means and provide an open WIFI network for the restaurant costumers.
 
 ### 2.2 Product functions
 
 For the clients it's necessary that in their application they capture the QR code found in the table assigned by the waiter to start ordering mainly. The application registers the clients and shows them the menu of the restaurant ordered by categories. When selecting each dish, it can be included in a section of notes to give specifications of the dish or drink, and they will be added in the form of a list to confirm the order later.
 
-Optionally, customers can see information and comments about the restaurants, request the presence of staff and pay through the application.
+Optionally, customers can see information and comments about the restaurant, request the presence of staff and pay through the application.
 
 The waiters have control of the tables assigned to the clients, having visualization of the available tables and the requests of each one of them. They also visualize each dish ready to go and the table that corresponds to it.
 
 The cooks receive each list generated at the moment, when finishing the dish they mark the list as finished so that the waiter continues to pick up the dishes.
 
 ### 2.3 User characteristics
+
+There are three types of users that interact with the system: restaurant costumers, cooks and waiters. Each of these three types of users has different use of the system they have their own requirements.
+
+| User                | Characteristics |
+|-----------|----------------|
+| Restaurant costumer | The restaurant costumer is any person that has entered the restaurant and has been assigned a table. This person only requests a food service inside the restaurant as the main objective, optionally can get information about the restaurant and its dishes |
+| Waiter | Employee in charge of the controls of tables and bring the dishes on the tables. This person through the application is only responsible for the management of the tables and bring dishes ready from the kitchen to the tables |
+| Chef | Employee in charge of the prepare of the dishes. This person is in charge of preparing the dishes. Through the application you can see the list of pending dishes and confirm them as ready for waiters |
 
 ### 2.4 Constraints
 
