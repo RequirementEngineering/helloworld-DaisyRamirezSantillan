@@ -35,6 +35,7 @@ The application is available freely for Android and IOs devices from app stores 
 |Menu       | All the dishes that the restaurant has and visible to the client |
 | QR code   | Code with unique identification of each table in the system | 
 
+
 ### 1.4 References
 
 Pending...
@@ -64,6 +65,7 @@ There are three types of users that interact with the system: restaurant costume
 | Restaurant costumer | The restaurant costumer is any person that has entered the restaurant and has been assigned a table. This person only requests a food service inside the restaurant as the main objective, optionally can get information about the restaurant and its dishes |
 | Waiter | Employee in charge of the controls of tables and bring the dishes on the tables. This person through the application is only responsible for the management of the tables and bring dishes ready from the kitchen to the tables |
 | Chef | Employee in charge of the prepare of the dishes. This person is in charge of preparing the dishes. Through the application you can see the list of pending dishes and confirm them as ready for waiters |
+| Receptionist | Employee who is charge to receive the costumers and provide a table or oriented |
 
 ### 2.4 Constraints
 
@@ -123,6 +125,6 @@ Pending...
 
 ### 4.1 Choice of prioritization method
 
-## Appendix n ...
+## Appendix 1 ...
 
 
